@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landscaping Services - Cost Estimator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+  
+  <nav>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html" class="active">Services</a></li>
+      <li><a href="cost_calculator.html">Estimator</a></li>
+      <li><a href="cotact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  
+  <section class="cost-calculator" data-aos="fade-up">
+    <h2>Project Cost Estimator</h2>
+    <label>Yard Size (square feet): <input type="number" id="yardSize" value="100"></label>
+    <label><input type="checkbox" id="premium"> Premium Design (+20%)</label>
+    <label><input type="checkbox" id="eco"> Eco-Friendly Materials (+15%)</label>
+    <label><input type="checkbox" id="fast"> Fast Completion (+10%)</label>
+    <div id="estimate">Estimated Cost: $0</div>
+  </section>
+
+  <footer>
+    <p>© 2025 GreenScape Landscaping | (033) 123-4567 | email@example.com</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
